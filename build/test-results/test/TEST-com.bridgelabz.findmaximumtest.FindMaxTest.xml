@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.findmaximumtest.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-27T18:51:08" hostname="DESKTOP-0QBG6NF" time="0.031">
+<testsuite name="com.bridgelabz.findmaximumtest.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-27T19:05:22" hostname="DESKTOP-0QBG6NF" time="0.036">
   <properties/>
-  <testcase name="givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum()" classname="com.bridgelabz.findmaximumtest.FindMaxTest" time="0.031"/>
-  <system-out><![CDATA[Largest Letter is = vibrate
-]]></system-out>
+  <testcase name="givenFirstIntegerNumberAsLarge_ShouldReturn_FirstNumberAsMax()" classname="com.bridgelabz.findmaximumtest.FindMaxTest" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
