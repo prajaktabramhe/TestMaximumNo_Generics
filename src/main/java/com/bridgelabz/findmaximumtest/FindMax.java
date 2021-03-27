@@ -18,6 +18,6 @@ public class FindMax {
     }
 
     void printMax(Integer max) {
-        System.out.println("Maximum is  = " + max);
+        System.out.println("Maximum number is  = " + max);
     }
 }
