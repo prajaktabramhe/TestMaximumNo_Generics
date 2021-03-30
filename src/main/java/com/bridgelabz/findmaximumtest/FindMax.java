@@ -7,7 +7,7 @@ public class FindMax
         System.out.println("***** Welcome to arithmetic number computation ****");
     }
 
-    public Integer findMaxValue(Integer firstNumber, Integer secondNumber, Integer thirdNumber)
+    public <T extends Integer> Integer findMaxValue(T firstNumber, T secondNumber, T thirdNumber)
     {
         Integer max = firstNumber;
         if (secondNumber.compareTo(max) > 0) {
@@ -20,7 +20,7 @@ public class FindMax
         return max;
     }
 
-    void printMax(Integer max)
+    public <T extends Integer> void printMax(T max)
     {
         System.out.println("Maximum number is  = " + max);
 
