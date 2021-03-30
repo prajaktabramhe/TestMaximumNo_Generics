@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.findmaximumtest.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-30T19:00:54" hostname="DESKTOP-0QBG6NF" time="0.043">
+<testsuite name="com.bridgelabz.findmaximumtest.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-30T19:41:03" hostname="DESKTOP-0QBG6NF" time="0.053">
   <properties/>
-  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax()" classname="com.bridgelabz.findmaximumtest.FindMaxTest" time="0.043"/>
-  <system-out><![CDATA[Maximum number is  = 300
+  <testcase name="givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum()" classname="com.bridgelabz.findmaximumtest.FindMaxTest" time="0.053"/>
+  <system-out><![CDATA[Maximum number is  = 500
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -7,9 +7,12 @@ public class FindMax
         System.out.println("***** Welcome to arithmetic number computation ****");
     }
 
-    public <T extends Integer> Integer findMaxValueInteger(T firstNumber, T secondNumber, T thirdNumber)
+
+    //for Integer, Float, String
+    public  <T extends Comparable<T>> T findMaxValue(T firstNumber, T secondNumber, T thirdNumber)
+
     {
-        Integer max = firstNumber;
+        T max = firstNumber;
         if (secondNumber.compareTo(max) > 0) {
             max = secondNumber;
         }
@@ -20,27 +23,10 @@ public class FindMax
         return max;
     }
 
-
-    public <T extends Float> Float findMaxValueFloat(T firstNumber, T secondNumber, T thirdNumber)
-    {
-        Float max = firstNumber;
-        if (secondNumber.compareTo(max) > 0) {
-            max = secondNumber;
-        }
-        if (thirdNumber.compareTo(max) > 0) {
-            max = thirdNumber;
-        }
-        printMax(max);
-        return max;
-    }
-
-    public <T extends Integer> void printMax(T max)
+    public <T> void printMax(T max)
     {
         System.out.println("Maximum number is  = " + max);
     }
-    public <T extends  Float> void printMax(T max)
-    {
-        System.out.println("Maximum from float = " + max);
 
-    }
+
 }
