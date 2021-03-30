@@ -1,11 +1,14 @@
 package com.bridgelabz.findmaximumtest;
 
-public class FindMax {
-    public static void main(String[] args) {
+public class FindMax
+{
+    public static void main(String[] args)
+    {
         System.out.println("***** Welcome to arithmetic number computation ****");
     }
 
-    public Integer findMaxValue(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
+    public Integer findMaxValue(Integer firstNumber, Integer secondNumber, Integer thirdNumber)
+    {
         Integer max = firstNumber;
         if (secondNumber.compareTo(max) > 0) {
             max = secondNumber;
@@ -17,7 +20,8 @@ public class FindMax {
         return max;
     }
 
-    void printMax(Integer max) {
+    void printMax(Integer max)
+    {
         System.out.println("Maximum number is  = " + max);
     }
 }
