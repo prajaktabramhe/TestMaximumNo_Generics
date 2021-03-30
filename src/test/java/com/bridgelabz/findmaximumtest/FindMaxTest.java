@@ -51,22 +51,22 @@ public class FindMaxTest
     @Test
     public void givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum()
     {
-        String max2 = findMax.findMaxValue("vibrate", "swara", "don");
-        Assertions.assertEquals((String) "vibrate", max2);
+        String max2 = findMax.findMaxValue("vibrate", "zebra", "don");
+        Assertions.assertEquals((String) "zebra", max2);
     }
 
     @Test
     public void givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum()
     {
-        String max2 = findMax.findMaxValue("point", "Prajakta", "vibrate");
-        Assertions.assertEquals((String) "Prajakta", max2);
+        String max2 = findMax.findMaxValue("point", "prajakta", "vibrate");
+        Assertions.assertEquals((String) "vibrate", max2);
     }
 
     @Test
     public void givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum()
     {
         String max2 = findMax.findMaxValue("rahul", "sachin", "keratin");
-        Assertions.assertEquals((String) "keratin", max2);
+        Assertions.assertEquals((String) "sachin", max2);
     }
 }
 
