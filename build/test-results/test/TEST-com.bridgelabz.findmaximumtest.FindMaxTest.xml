@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.findmaximumtest.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-27T18:23:54" hostname="DESKTOP-0QBG6NF" time="0.054">
+<testsuite name="com.bridgelabz.findmaximumtest.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-30T18:52:27" hostname="DESKTOP-0QBG6NF" time="0.042">
   <properties/>
-  <testcase name="givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum()" classname="com.bridgelabz.findmaximumtest.FindMaxTest" time="0.054"/>
+  <testcase name="givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum()" classname="com.bridgelabz.findmaximumtest.FindMaxTest" time="0.042"/>
   <system-out><![CDATA[Maximum from float = 30.0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
