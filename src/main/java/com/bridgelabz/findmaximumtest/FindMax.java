@@ -1,32 +1,23 @@
 package com.bridgelabz.findmaximumtest;
 
+import java.util.Arrays;
+
 public class FindMax
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         System.out.println("***** Welcome to arithmetic number computation ****");
     }
 
 
-    //for Integer, Float, String
-    public  <T extends Comparable<T>> T findMaxValue(T firstNumber, T secondNumber, T thirdNumber)
-
+    public <T extends Comparable<T>> T findMaxValue(T[] inputArray )
     {
-        T max = firstNumber;
-        if (secondNumber.compareTo(max) > 0) {
-            max = secondNumber;
-        }
-        if (thirdNumber.compareTo(max) > 0) {
-            max = thirdNumber;
-        }
-        printMax(max);
-        return max;
+        int size = inputArray.length;
+        Arrays.sort(inputArray);
+        printMax(inputArray[size-1]);
+        return inputArray[size-1];
     }
 
-    public <T> void printMax(T max)
-    {
+    public <T> void printMax(T max) {
         System.out.println("Maximum number is  = " + max);
     }
-
-
 }
