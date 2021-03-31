@@ -13,7 +13,6 @@ public class FindMax
     {
         int size = inputArray.length;
         Arrays.sort(inputArray);
-        printMax(inputArray[size-1]);
         return inputArray[size-1];
     }
 
