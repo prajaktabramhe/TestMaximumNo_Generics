@@ -1,39 +1,25 @@
 package com.bridgelabz.findmaximumtest;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class FindMax<E extends Comparable<E>>
-{
-    //Array of Generic values
-    E[] values;
-    //List of Generic Values
-    List<E> listValues = new ArrayList<>();
-
-    //Constructor to Initialize Generic Array
-    public FindMax(E[] values) {
-        this.values = values;
+public class FindMax {
+    public static void main(String[] args) {
+        System.out.println("***** Welcome to arithmetic number computation ****");
     }
 
-    //Constructor to Initialize Generic List
-    public FindMax(List<E> listValues) {
-        this.listValues = listValues;
+
+    public <T extends Comparable<T>> T findMaxValue(T[] inputArray )
+    {
+        int size = inputArray.length;
+        Arrays.sort(inputArray);
+        printMax(inputArray[size-1]);
+        return inputArray[size-1];
     }
 
-    //Method to Find  Max Value From List
-    public E findMax() {
-        return Collections.max(listValues);
-    }
-
-    //Method to Find Max Value Form Array
-    public E findMaxValue() {
-        if (values[0].compareTo(values[1]) > 0 && values[0].compareTo(values[2]) > 0) {
-            return values[0];
-        } else if (values[1].compareTo(values[0]) > 0 && values[1].compareTo(values[2]) > 0) {
-            return values[1];
-        } else {
-            return values[2];
-        }
+    public <T> void printMax(T max) {
+        System.out.println("Maximum number is  = " + max);
     }
 }
